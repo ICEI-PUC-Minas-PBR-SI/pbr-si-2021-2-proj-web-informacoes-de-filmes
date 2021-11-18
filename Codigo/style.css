@@ -185,3 +185,101 @@ h1{
         width: 90%;
     }
 }
+
+.formulario-login{
+    background-color: white;
+    max-width: 600px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.formulario-login h2{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.formulario-login input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #D4D4D4;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.formulario-login .botaologin{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #4a3fdb;
+    color: white;
+    
+}
+
+.formulario-login .botaologin:hover{
+    background-color: #29228d;
+}
+
+.body-login{
+    background-color: #D4D4D4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario-cadastro{
+    background-color: white;
+    max-width: 600px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.formulario-cadastro h2{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.formulario-cadastro input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #D4D4D4;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.formulario-cadastro .botaologin{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #4a3fdb;
+    color: white;
+    
+}
+
+.formulario-cadastro .botaologin:hover{
+    background-color: #29228d;
+}
+
+.body-cadastro{
+    background-color: #D4D4D4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input:focus{
+    border-color: #29228d;
+}

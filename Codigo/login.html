@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7256d15d36.js" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+    <title>Portal de Filmes</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-login">
+    <header>
+        <div>
+            <a href="index.html"  class="titulo">Portal de Filmes</a>
+        </div>
+    </header>
+    <form class="formulario-login">
+        <h2>Login</h2>
+        <i class="far fa-envelope"></i>
+        <input id="emaillogin" type="email" name="email" placeholder="Seu email"/>
+        <i class="fas fa-lock"></i>
+        <input id="passlogin" type="password" name="senha" placeholder="Sua senha"/>
+        <input class="botaologin" type="submit" name="acao" value="Login" onclick="logar()"/>
+        <a href="cadastro.html">Não possui login ? cadastre-se aqui.</a>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
