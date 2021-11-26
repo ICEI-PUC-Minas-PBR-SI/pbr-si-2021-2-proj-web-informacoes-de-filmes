@@ -7,17 +7,18 @@
     list-style: none;
     text-decoration: none;
 }
-.cabeçalho{
-    text-align: left;
-}
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color:rgb(252, 247, 247);
 }
+
+.menu{
+    
+}
 footer{
-    padding: 3%;
+    padding: 1%;
     text-align: center;
     background-color: rgba(197, 190, 182, 0.192);
     
