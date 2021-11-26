@@ -29,13 +29,16 @@ function registrar() {
     
 };
 
+
 function logar(){
+    
+    
     let user = document.getElementById('emaillogin').value;
     let pass = document.getElementById('passlogin').value;
     if(user in localStorage){
         if(pass in localStorage){
-        alert('Logado com sucesso !');
-        return;
+            window.location.href = "index.html";
+            loga();
         }else{
             alert('Senha Incorreta !')
             return;
@@ -47,4 +50,9 @@ function logar(){
     };
     
 
+};
+
+function loga(){
+    logado = true;
+    return logado;
 };
