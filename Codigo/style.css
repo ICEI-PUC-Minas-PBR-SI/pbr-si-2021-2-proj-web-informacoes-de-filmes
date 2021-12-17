@@ -14,7 +14,7 @@ header:hover{
     padding: 1em 0em;
     display: flex;
 */
-}
+
 @media (max-width: 600px){
     header div{
         width: 40%;
@@ -283,4 +283,11 @@ h1{
 
 input:focus{
     border-color: #49457e;
+}
+
+.categorias-texto{
+    margin-left: 350px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: bold;
 }
